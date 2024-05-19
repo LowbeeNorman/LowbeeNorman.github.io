@@ -1,45 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Little big planet is super swag epic i thinks</title>
-    <!--First rule is for emphasizing, to change how it looks
-    it is usually slightly larger and italicized-->
-    <style>
-        em {
-            color: red;
-            font-style: normal;
-            font-size: 40px;
-        }
-      img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-        float: left;
-        margin-right: 10px;
-      }
-      .sackboy-introduction {
-        font-weight: bold;
-      }
-    </style>
-  </head>
-  <body>
-    <img src="images/LITTLEBIGPLANET.png" alt="LITTLEBIGPLANET IMAGE HAHAHAAHHAHAHAHAHHAHAHAHAHAHAHHAHAHAH" >
-    <p class="sackboy-introduction">
-      This is sackboy from little big planet, he is my friend &lt;<!--&lt; makes a less than sign-->3
-    </p>
-    <p><em>:&rpar;</em></p> <!--makes a paragraph with emphasis text-->
-    <p><strong>:o &copy;</strong></p>
-    <h1>ooo</h1>
-    <h2>ooooo</h2>
-    <h3>oooooooo</h3>
-    <h4>ooooooooooooo</h4>
-    <h5>ooooooooooooooooooooo</h5>
-    <h6>ooooooooooooooooooooooooooooooooooo</h6>
-
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit a laborum quia totam, consequuntur possimus 
-        quos ea culpa architecto! Eligendi neque est, nostrum necessitatibus tempora labore praesentium fugiat corporis provident.</p> <!--Generated this through lorem30-->
-        <p><a href="boilerplatetemplate.html">Different page</a></p>
-        <p><a href="images/heisler.png" download>Heisler</a></p>
-        <p><a href="https://theuselessweb.com/" target="_blank">Useless Web :D</a></p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Caleb Norman</title>
+</head>
+<body>
+  <div class="header"></div>
+  <div class="left"></div>
+  <div class = "midcontent">
+    <div class = "title">
+      <br><br>
+      <h1>Resume</h1>
+      <h2>Caleb Norman</h2>
+    </div>
+    <hr />
+    <div class = "body">
+      <p class = "interests">Interests
+        <ul>
+          <li>Programming</li>
+          <li>Computer Science</li>
+          <li>Mathematics</li>
+        </ul>
+      </p>
+      <p class = "skills">Skills
+        <ul>
+          <li>Python</li>
+          <li>Java</li>
+          <li>C#</li>
+          <li>C++</li>
+          <li>QtCreator</li>
+        </ul>
+      </p>
+      <p class = "education">Education
+        <ul>
+          <li>Skyline High School</li>
+          <li>University of Utah (pursuing Computer Science BS)</li>
+        </ul>
+      </p>
+      <p class = "experience">Experience
+        <ul>
+          <li>Holladay Lions Fitness and Recreation Center (lifeguard for 2 years, headguard for 1 year, aquatics supervisor for 2 years)</li>
+        </ul>
+      </p>
+      <p class = "projects"><a href="https://github.com/LowbeeNorman">Projects</a>
+        <ul>
+          <li><a href="https://github.com/LowbeeNorman/MinesweeperEdu">MinesweeperEdu (School project with a group)</a></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+  <div class="right"></div>
+  <div class="footer">
+    <h2 class="name">Caleb</h2></div>
+  </div>
+</body>
+<style>
+  div {
+    border-radius: 0px;
+  }
+  
+  .header {
+    height: 50px;
+    width: 99.2%;
+    background-color: #ccfcff;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .footer {
+    height: 50px;
+    width: 100%;
+    background-color: #ccfcff;
+    clear: both;
+    position: relative;
+  }
+  
+  .left {
+    height: 800px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: left;
+    position: fixed;
+  }
+  
+  .right {
+    height: 800px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: right;
+    position: inherit;
+  }
+  
+  .midcontent {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 55px;
+    width: 75%;
+    height: 800px;
+  }
+  
+  p,
+  li {
+    font-family: 'Cormorant Garamond';
+  }
+  
+  .head {
+    font-size: 20px;
+  }
+  
+  .name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
+</style>
 </html>
